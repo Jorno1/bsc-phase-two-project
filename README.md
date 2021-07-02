@@ -53,11 +53,11 @@ For this project, I will be looking at comparing our target variable (sales pric
 
 ### Recommendations
 
-![](/images/Sales_By_Month.png)
+![](bsc-phase-two-project/images/Sales_By_Month.png)
 
 
 My first figure shows the most housing sales in different months of the year. According to the graph, monthe April, May, and July are the best times to purchase a house. 
-![](King_County_Analysis_Images/KingCountyinCircles.jpg)
+
 
 
 This figure shows prices, age of the home, and locational data with bubble size representing price and colors representing when the house was built. It shows us location is correlated with your sales price. In general, buying a house north of the 47.5 latitude will be much more expensive than buying a house south of that latitude. Houses in the south of that latitude are substantially cheaper. 
