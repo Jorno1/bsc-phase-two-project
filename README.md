@@ -6,7 +6,7 @@ The price of a home in Western Washington has increased exponentially over the p
 
 By using libraries such as matplotlib, seaborn, and techiniques such as simple and multiple linear regressions, I hope to find the most accurate model to predict the best price for a house. 
 
-### Data and Technologies Used
+### Data Used
 
 This project uses the King County House Sales dataset from 2014 - 2015. 
 
@@ -50,19 +50,30 @@ For this project, I will be looking at comparing our target variable (sales pric
 - Where is the best place in King County to buy a home?(Zipcode)
 - How do various features such as number of bathrooms, grade of the house, amount of living space play impact the price? 
 
+### Methods 
+I cleaned the data
+Logged data in most models 
+Removed outliers
+One Hot Encoded categorical data 
+Made several models 
+Looked for features that were most correlated with price
+Used the date to find out when are the best months to buy a house. 
 
-### Recommendations
+### Results 
+The data in my last model contained the features that a buyer will look at when trying to purchase a house. In my first models I did most methods but did not come out successful. In my ninth model I added the one hot encoded categorical data then my model started to train and test the data well. 
+The final train error was 164055.86123491873
+The final test error was  164525.45580753023
 
-![](/images/Sales_By_Month.png)
+### Conclusion 
+Based on the data, the categorical features were important when fitting this model. Zip Code, waterfront, and the view were features that changed the model and caused it to fit well. One hot encoding, logging, and removing outliers helped the most when trying to get the closest prediction. It would be good to buy a house in the summer months, with a good view, waterfront, and a good sized house. 
+
+
+### Best Month to buy a house. 
+
+![](bsc-phase-two-project/images/Sales_By_Month.jpg)
 
 
 My first figure shows the most housing sales in different months of the year. According to the graph, monthe April, May, and July are the best times to purchase a house. 
-![](King_County_Analysis_Images/KingCountyinCircles.jpg)
-
-
-This figure shows prices, age of the home, and locational data with bubble size representing price and colors representing when the house was built. It shows us location is correlated with your sales price. In general, buying a house north of the 47.5 latitude will be much more expensive than buying a house south of that latitude. Houses in the south of that latitude are substantially cheaper. 
-
-
 
 
 ### What's Next?
