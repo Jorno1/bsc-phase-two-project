@@ -63,7 +63,7 @@ Used the date to find out when are the best months to buy a house.
 The data in my last model contained the features that a buyer will look at when trying to purchase a house. In my first models I did most methods but did not come out successful. In my ninth model I added the one hot encoded categorical data then my model started to train and test the data well. 
 The final train error was 164055.86123491873
 The final test error was  164525.45580753023
-![](./images/Last_Model .jpg)
+![](./images/last_model.jpg)
 
 
 ### Conclusion 
@@ -72,7 +72,7 @@ Based on the data, the categorical features were important when fitting this mod
 
 ### Best Month to buy a house. 
 
-![](./images/Sales_By_Month.png)
+![](./images/sales_by_month.jpg)
 
 
 My first figure shows the most housing sales in different months of the year. According to the graph, monthe April, May, and July are the best times to purchase a house. 
