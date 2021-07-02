@@ -65,7 +65,7 @@ The final train error was 164055.86123491873
 The final test error was  164525.45580753023
 
 ### Conclusion 
-Based on the data, the categorical features were important when fitting this model. Zip Code, waterfront, and the view were features that changed the model and caused it to fit well. One hot encoding, logging, and removing outliers helped the most when trying to get the closest prediction. It would be good to buy a house in the summer months, with a good view, waterfront, and a good sized house. 
+Based on the data, the categorical features were important when fitting this model. Zip Code, waterfront, and the view were features that changed the model and caused it to fit well. One hot encoding, logging, and removing outliers helped the most when trying to get the closest prediction. It would be good to buy a house in the summer months, with a good view, waterfront, and a house with a good number of beds and bathrooms. 
 
 
 ### Best Month to buy a house. 
@@ -80,3 +80,16 @@ My first figure shows the most housing sales in different months of the year. Ac
 
 1. Using more of the data given to make the most accurate model that could be made. 
 2. Try to lower the data in each individual price range in the model's output. 
+
+## Repository Structure 
+project-folder
+    |
+    README.md
+    data-folder
+    images-folder
+    notebooks-folder
+          |
+          report.ipynb
+          exploratory-folder
+                  |
+                  Final-Notebook
